@@ -1,0 +1,55 @@
+<div class="container">
+    <div class=" text-center row">
+        <div class="p-2 ms-3 me-3 col-3">
+            <a (click)="filter(2)">
+                <img class="w-50" src="https://i.postimg.cc/4dvsFKd5/Untitled-1-0013-884790430.jpg" alt="">
+                <h6>Ecopots</h6>
+            </a>
+        </div>
+
+        <div class="p-2 ms-3 me-3 col-3">
+            <a (click)="filter(1)">
+                <img class="w-50" src="https://i.postimg.cc/Xqzj9RXS/download.jpg" alt="">
+                <h6>Veg Trug</h6>
+
+            </a>
+        </div>
+
+        <div class="p-2 ms-3 me-3 col-3">
+            <a (click)="filter(3)">
+                <img class="w-50" src="https://i.postimg.cc/wjtV5LfS/download-1.jpg" alt="">
+                <h6>Plant Holders</h6>
+            </a>
+        </div>
+    </div>
+
+</div>
+
+
+<section class="py-5">
+    <div class="container px-4 px-lg-5 mt-5">
+        <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+            <div class="col mb-5" *ngFor="let i of filterproducts | filter:searchkey:'productName'">
+                <div class="card h-100">
+                    <!-- Product image-->
+                    <img class="card-img-top" src="{{i.productImage}}" alt="..." />
+                    <!-- Product details-->
+                    <div class="card-body p-4">
+                        <div class="text-center">
+                            <!-- Product name-->
+                            <h5 class="fw-bolder">{{i.productName}}</h5>
+                            <p >{{i.description}}</p>
+                            <!-- Product price-->
+                            ₹{{i.price}}
+                        </div>
+                    </div>
+                    <!-- Product actions-->
+                    <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                        <div class="text-center"><a class="btn btn-outline-dark mt-auto"
+                                href="product/view-product/{{i.id}}">View options</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

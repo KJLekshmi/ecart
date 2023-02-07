@@ -1,0 +1,114 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "productName": "Ecopots Oslo White Grey",
+      "categoryid": 2,
+      "description": "Ecopots have a unique natural look and feel, with clean, simple lines. This minimalist design will add a stylish touch to your home and garden. These pots are lightweight and  durable and are made from recycled materials and completely recyclable. ",
+      "isAvailable": true,
+      "price": "2500",
+      "rating": 7.8,
+      "review": 45,
+      "productImage": "https://i.postimg.cc/7LkckFXr/Eco-Pots-Oslo-White-Grey-2-500x.webp"
+    },
+    {
+      "id": 2,
+      "productName": "Ecopots Amsterdam White Grey",
+      "categoryid": 2,
+      "description": "The Ecopots Amsterdam collection feels at home both indoors and outdoors & is available in a variety of classic colours and sizes. ",
+      "price": "1700",
+      "isAvailable": true,
+      "productImage": "https://i.postimg.cc/76swbHQ2/Eco-Pots-Amsterdam-Dark-Grey-1-500x.webp",
+      "rating": 7.8,
+      "review": 45
+    },
+    {
+      "id": 3,
+      "productName": "Ecoports Brudges Taupe",
+      "categoryid": 2,
+      "description": "These pots are lightweight and  durable and are made from recycled materials and completely recyclable. ",
+      "price": "1100",
+      "isAvailable": true,
+      "productImage": "https://i.postimg.cc/5t8mxjys/Eco-Pots-Brugestaupe-2-500x.webp",
+      "rating": 7.8,
+      "review": 45
+    },
+    {
+      "id": 4,
+      "productName": "Ecoports Amsterdam Wheels Dark Grey",
+      "categoryid": 2,
+      "description": " The Ecopots Amsterdam Wheels is perfect for effortlessly moving around your favourite plants. Ideal for your patio, balcony or office space.",
+      "price": "1500",
+      "isAvailable": true,
+      "productImage": "https://i.postimg.cc/prvWgG70/Eco-Pots-Amsterdam-Wheels-Dark-Grey-3-500x.webp",
+      "rating": 7.8,
+      "review": 45
+    },
+    {
+      "id": 5,
+      "productName": "VegTrug Herb Garden Natural",
+      "categoryid": 1,
+      "description": "It has eight individually-lined pockets allowing different herbs to grow in harmony. Comes flat packed, but is easy to assemble with detailed instructions.",
+      "price": "5200",
+      "isAvailable": true,
+      "productImage": "https://i.postimg.cc/Y9nnDkr2/Vegtrug-Raised-Bed-Planter-Natural-1-500x.webp",
+      "rating": 8.8,
+      "review": "88"
+    },
+    {
+      "id": 7,
+      "productName": "VegTrug  Garden Natural",
+      "categoryid": 1,
+      "description": "It has eight individually-lined pockets allowing different herbs to grow in harmony. Comes flat packed, but is easy to assemble with detailed instructions.",
+      "price": "4288",
+      "isAvailable": true,
+      "productImage": "https://i.postimg.cc/k42CLrfF/Vegtrug-Herb-Garden-Natural-RHP6002-Nlifestyle-500x.webp",
+      "rating": 7.8,
+      "review": 45
+    },
+    {
+      "id": 8,
+      "productName": "Tom Chambers Constable Obelisk ",
+      "categoryid": 3,
+      "description": "This traditional obelisk from Tom Chambers is perfect for adding height and structure to any garden border. Ideal for use with a variety of climbing plants. Finished in weather resistant black coating.",
+      "price": "1500",
+      "isAvailable": true,
+      "productImage": "https://i.postimg.cc/6qj4hxbs/Tom-Chambers-Constable-Obelisk1-4m-OB132-500x.webp",
+      "rating": 7.8,
+      "review": 45
+    },
+    {
+      "id": 9,
+      "productName": "Tom Chambers Nostell Obelisk",
+      "categoryid": 3,
+      "description": " This obelisk from Tom Chambers is perfect for adding height and structure to any garden border. Ideal for use with a variety of climbing plants. It is finished in weather resistant black coating. ",
+      "price": "3740",
+      "isAvailable": true,
+      "productImage": "https://i.postimg.cc/GmzJS6Bp/Tom-Chambers-Nostell-Obelisk1-6m-TC042-500x.webp",
+      "rating": 6.8,
+      "review": 45
+    },
+    {
+      "id": 10,
+      "productName": "Tom Chambers Boutique Garden Arch - Sage",
+      "categoryid": 3,
+      "description": "This Garden Arch from Tom Chambers will add an interesting focal point to any garden.  Intricately designed and finished in a natural sage green, this arch is perfect ",
+      "price": "2500",
+      "isAvailable": true,
+      "productImage": "https://i.postimg.cc/bJ956mjH/Tom-Chambers-Boutique-Garden-Arch-Sage-500x-1.webp",
+      "rating": 8.8,
+      "review": 35
+    },
+    {
+      "id": "6",
+      "productName": "Quadrant plant holder",
+      "categoryid": "3",
+      "description": "This traditional obelisk from Tom Chambers is perfect for adding height and structure to any garden border. Ideal for use with a variety of climbing plants. Finished in weather resistant black coating",
+      "price": "3400",
+      "isAvailable": "true",
+      "productImage": "https://i.postimg.cc/W1ttqHqm/download-2.jpg",
+      "rating": "8.8",
+      "review": "55"
+    }
+  ]
+}

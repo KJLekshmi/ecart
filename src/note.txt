@@ -1,0 +1,33 @@
+lazy loading technique
+......................
+*use to load the pages that have more traffic
+
+-modulecreation
+ ng g module moduleName
+
+ -lazy module creation
+  ng g module moduleName --route moduleName --module rootmoduleName 
+  
+ - cmnd for install json server
+ npm i --save json-server
+  
+  -cmnd for run json file
+  npx json-server --watch db.json --port 3000
+
+  1=veg trug
+  2=ecopots
+  3=plant holder
+
+
+  ACCESS data from component pat(url)
+  *class - ActivatedRoute
+  *method- params
+
+
+ //cmd for create pipe
+ -> ng g pipe pipe_name
+
+ BEHAVIOUR SUBJECT IN ANGULAR(asyn)
+ ............................
+ *RXJS
+ *to use data from a module to another module
